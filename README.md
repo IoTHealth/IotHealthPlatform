@@ -13,3 +13,7 @@ We develop Health sensor and Health App sample
 - Themometer
 - WatingScale
 
+Big Idea
+=======
+
+![alt text](https://github.com/IoTHealth/IotHealthPlatform/blob/master/bigimage.png)
