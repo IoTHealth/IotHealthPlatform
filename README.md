@@ -16,4 +16,4 @@ We develop Health sensor and Health App sample
 Big Idea
 =======
 
-![alt text](https://github.com/IoTHealth/IotHealthPlatform/blob/master/bigimage.png)
+![alt text](https://github.com/IoTHealth/IotHealthPlatform/blob/master/BigIdea.png)
