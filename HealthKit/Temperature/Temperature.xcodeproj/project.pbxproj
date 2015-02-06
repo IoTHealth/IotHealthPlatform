@@ -13,7 +13,7 @@
 		90DC1FA21A852CEC006296D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DC1FA11A852CEC006296D2 /* Images.xcassets */; };
 		90DC1FA51A852CEC006296D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DC1FA31A852CEC006296D2 /* LaunchScreen.xib */; };
 		90DC1FB11A852CEC006296D2 /* TemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DC1FB01A852CEC006296D2 /* TemperatureTests.swift */; };
-		90DC1FBB1A852D13006296D2 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DC1FBA1A852D13006296D2 /* HomeKit.framework */; };
+		90DC1FBE1A852E6A006296D2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DC1FBD1A852E6A006296D2 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 		90DC1FAA1A852CEC006296D2 /* TemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DC1FAF1A852CEC006296D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90DC1FB01A852CEC006296D2 /* TemperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTests.swift; sourceTree = "<group>"; };
-		90DC1FBA1A852D13006296D2 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		90DC1FBC1A852D13006296D2 /* Temperature.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Temperature.entitlements; sourceTree = "<group>"; };
+		90DC1FBD1A852E6A006296D2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DC1FBB1A852D13006296D2 /* HomeKit.framework in Frameworks */,
+				90DC1FBE1A852E6A006296D2 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 		90DC1F8C1A852CEC006296D2 = {
 			isa = PBXGroup;
 			children = (
-				90DC1FBA1A852D13006296D2 /* HomeKit.framework */,
+				90DC1FBD1A852E6A006296D2 /* HealthKit.framework */,
 				90DC1F971A852CEC006296D2 /* Temperature */,
 				90DC1FAD1A852CEC006296D2 /* TemperatureTests */,
 				90DC1F961A852CEC006296D2 /* Products */,
@@ -169,8 +169,11 @@
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = S7R28XB43S;
 						SystemCapabilities = {
-							com.apple.HomeKit = {
+							com.apple.HealthKit = {
 								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
 							};
 						};
 					};
