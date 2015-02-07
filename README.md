@@ -1,6 +1,11 @@
+Big Idea
+=======
+![alt text](https://github.com/IoTHealth/IotHealthPlatform/blob/master/BigIdea2.png)
+
+
 IoT Health
 =======
-We develop Health sensor and Health App sample
+We develop Health hardware(OHW) and Health App(OSS) sample
 
 - Temperature
 - BasicECG
@@ -13,10 +18,6 @@ We develop Health sensor and Health App sample
 - Themometer
 - WatingScale
 
-Big Idea
-=======
-
-![alt text](https://github.com/IoTHealth/IotHealthPlatform/blob/master/BigIdea2.png)
 
 Reference
 =======
