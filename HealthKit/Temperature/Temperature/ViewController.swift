@@ -81,7 +81,8 @@ class ViewController: UIViewController, UITextFieldDelegate  {
         
         //読み込みを許可する型
         let typeOfRead = [
-            HKObjectType.quantityTypeForIdentifier(HKQuantityTypeIdentifierBodyTemperature)
+            //HKObjectType.quantityTypeForIdentifier(HKQuantityTypeIdentifierBodyTemperature)
+            /HKObjectType.quantityTypeForIdentifier(HKQuantityTypeIdentifierHeartRate)
         ]
         let typeOfReads = NSSet(array: typeOfRead)
         
